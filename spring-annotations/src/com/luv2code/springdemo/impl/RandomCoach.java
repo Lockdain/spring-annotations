@@ -12,4 +12,10 @@ public class RandomCoach implements Coach {
 		return "Hi there! I'm a bit random.";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

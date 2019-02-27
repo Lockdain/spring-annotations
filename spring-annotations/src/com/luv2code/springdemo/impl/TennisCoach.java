@@ -9,6 +9,7 @@ import com.luv2code.springdemo.intf.FortuneService;
 @Component()
 public class TennisCoach implements Coach {
 
+	@Autowired
 	private FortuneService fortuneService;
 	
 	/*
@@ -18,12 +19,13 @@ public class TennisCoach implements Coach {
 	}
 	*/
 	
+	/*
 	@Autowired
-	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println(">> TennisCoach: inside setFortuneService");
+	public void doSomeCrazyStuff(FortuneService fortuneService) {
+		System.out.println(">> TennisCoach: inside doSomeCrazyStuff");
 		this.fortuneService = fortuneService;
 	}
-	
+	*/
 	
 	public TennisCoach() {
 		System.out.println(">> TennisCoach: inside default constructor");

@@ -2,6 +2,7 @@ package com.luv2code.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.luv2code.springdemo.impl.SwimCoach;
 import com.luv2code.springdemo.intf.Coach;
 
 public class AnnotationDemoApp {

@@ -1,6 +1,7 @@
 package com.luv2code.springdemo.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.luv2code.springdemo.intf.Coach;
@@ -10,6 +11,7 @@ import com.luv2code.springdemo.intf.FortuneService;
 public class TennisCoach implements Coach {
 
 	@Autowired
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 	
 	/*
